@@ -13,4 +13,3 @@ def safely_get_value(dct: Mapping, key: Any, default: Def = None) -> Res:
     '''Returns the value with the given key in the dictionary
     '''
     return dct.get(key, default)
-
