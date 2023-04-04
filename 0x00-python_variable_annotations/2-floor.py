@@ -4,6 +4,6 @@
 
 
 def floor(n: float) -> int:
-    '''Computes the greatest integer less than or equal to a floating-point number.
+    '''Computes the floor of a floating-point num.
     '''
     return int(n)
